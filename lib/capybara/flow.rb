@@ -41,7 +41,7 @@ module Capybara
       :click_link,
       :click_link_or_button,
       :click_on,
-      :evaluate_script,
+      # :evaluate_script, #BAD FOR PERCY
       :execute_script,
       :fill_in,
       :go_back,
