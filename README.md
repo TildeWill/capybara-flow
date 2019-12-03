@@ -43,6 +43,12 @@ end
 
 ```
 
+## Releasing new version
+
+1. Update VERSION
+1. Run `rake build` to build the package
+1. Run `rake release` to publish the package to rubygems.org
+
 ## Credit
 
 This is forked from https://github.com/surzycki/capybara-animate 
